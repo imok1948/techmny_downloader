@@ -14,7 +14,7 @@
 //     console.log(`${index} => ${link}`)
 // })
 
-div = document.querySelector("#post-12364 > div > div.entry-content > div.timed-content-client_show_0_5_0")
+div = document.getElementsByClassName('timed-content-client_show_0_5_0')[0]
 h3 = div.getElementsByTagName('h3')
 
 for (i = 0; i < h3.length; i++) {
@@ -24,3 +24,4 @@ for (i = 0; i < h3.length; i++) {
         console.log(`Index ${i} => ` + e)
     }
 }
+
