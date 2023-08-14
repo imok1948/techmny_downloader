@@ -19,7 +19,7 @@ h3 = div.getElementsByTagName('h3')
 
 for (i = 0; i < h3.length; i++) {
     try {
-        console.log(`${i} => ${h3[i].getElementsByTagName('a')[0].href}`)
+        console.log(`${i + 1} => ${h3[i].getElementsByTagName('a')[0].href}`)
     } catch (e) {
         console.log(`Index ${i} => ` + e)
     }
