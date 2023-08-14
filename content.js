@@ -71,11 +71,11 @@ function test2() {
             } catch (e) {
                 console.log('Problem clicking link not found')
             }
-            try {
-                document.getElementById('ddl').click()
-            } catch (e) {
-                console.log('ddl not found')
-            }
+            // try {
+            //     document.getElementById('ddl').click()
+            // } catch (e) {
+            //     console.log('ddl not found')
+            // }
             try {
                 document.getElementById('drc').click()
             }
